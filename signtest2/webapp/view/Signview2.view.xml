@@ -1,0 +1,18 @@
+<mvc:View 
+xmlns:mvc="sap.ui.core.mvc"
+xmlns:wt="signtest2.control"
+xmlns="sap.m" 
+controllerName="signtest2.controller.Signview2" 
+displayBlock="true">
+    <Page id="page" title="{i18n>title}">
+        <content> 
+        <wt:mySignApp
+           id="mySignApp"
+           width="800px"
+           height="400px"
+           thickness="20"/>
+           <!-- bgcolor="lightblue"
+           signcolor="blue"/>         -->
+        </content>
+    </Page>
+</mvc:View>
